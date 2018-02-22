@@ -1,0 +1,160 @@
+@font-face{
+	font-family:'para_font';
+	src:url('assets/fonts/roboto/Aileron-Light.otf');
+}
+.logo_style{
+	color:#fff;
+	font-size:30px;
+}
+.red_part{
+	padding:30px 0 30px 0;
+}
+.my_navstyle ul li a{
+	font-weight:bold;
+	font-size:17px;
+	padding:0 45px 0 45px;
+}
+/*=======bannr part==============*/
+.banner_part{
+	
+	position:relative;
+}
+.parallax-container {
+}
+.service_head{
+	font-weight:bold;
+	font-size:36px;
+	margin:50px 0 50px 0;
+	
+}
+.img_style:hover{
+	opacity:0.9;
+	transition:ease .2s;
+}
+.icon_circle{
+	background:#DF3622;
+	width:70px;
+	height:70px;
+	float:left;
+	margin:0 20px 20px 0;
+}
+.icon_style{
+	font-size:40px;
+	color:#fff;
+	margin:15px 0 0 15px;
+}
+.icon_part{
+	padding:0 30px 0 50px;
+}
+.icon_head{
+	font-weight:bold;
+	font-size:22px;
+	
+}
+.icon_para{
+	font-weight:bold;
+	font-size:14px;
+	
+}
+.about_part{
+	background:#F9F9F9;
+	padding:10px 50px 50px 50px;
+	margin:50px 0 0 0
+}
+.about_para{
+	margin:0 70px 20px 70px;
+}
+.my_button{
+	margin:20px 0 0 0;
+}
+.my_button:hover{
+	border:2px solid #DC3636;
+	background:none!important;
+	color:#DC3636;
+}
+/*==============latest part================*/
+.latest_part{
+	padding:30px 20px 0 20px;
+}
+.container_my{
+	position: relative;
+  
+}
+.overlay_img{
+display: block;
+  width: 100%;
+  height: auto;
+
+}
+.overlay{
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E04E4E;
+}
+.container_my:hover .overlay {
+  opacity: 0.9;
+  cursor:pointer;
+}
+
+.text {
+	
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img_head{
+	font-weight:bold;
+	font-size:22px;
+	color:#F4361C;
+	margin:15px 0 5px 0;
+}
+.img_para{
+	
+	font-size:16px;
+	color:#424242 ;
+	margin:16px 60px 0 0;
+
+}
+.date_icon{
+	margin:5px 0 5px 0;
+	color:#9e9e9e ;
+	font-size:25px;
+	display:inline;
+}
+.date_text{
+	color:#9e9e9e ;
+	font-size:15px;
+
+}
+/*=============grey part=============*/
+.grey_background{
+	background:#212121;
+	padding:20px 10px 20px 0;
+	margin:0;
+}
+.number_text{
+	color:#9e9e9e ;
+	font-size:40px;
+	
+}
+.number_text_1{
+	color:#9e9e9e ;
+	font-size:20px;
+
+}
+p{
+margin-top: 0!important;
+margin-bottom: 0!important;
+}
